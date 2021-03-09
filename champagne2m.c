@@ -7,10 +7,10 @@
  *   Ajust the stock
  *   Then just go round again
  */
+
 #include <stdio.h>
 #include <stdlib.h>
-int main()
-{
+int main(){
 	int stock = 180;
 	int order_string;
 	int order;
