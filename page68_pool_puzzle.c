@@ -1,8 +1,8 @@
-void find_track(char search_for[]){
+void find_track(char search_for[]) {
 	int i;
-	for (i = 0; i < 5; i++){
-		if ( ............ ( ............ , ............ ))
-			printf("Trach %i: '%s'\n", ............ , ............ );
+	for (i = 0; i < 5; i++) {
+		if (strstr(tracks[i], ............ ))
+			printf("Trach %i: '%s'\n", i, search_for );
 	}
 }
 
@@ -18,9 +18,8 @@ void find_track(char search_for[]){
  */
 
 my
-tracks[i]
-strstr
-search_for
+
+
 "Sinatra"
 way
 i
