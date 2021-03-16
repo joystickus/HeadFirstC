@@ -20,14 +20,14 @@ int main(){
 	float latitude;
 	float longitude;
 	char info[80];
-	int started = ......... ;
+	int started = 0;
 	puts("data=[");
-	while (scanf("%f,%f,%79[^\n]", latitude, longitude, info[]) == 3){
+	while (scanf("%f,%f,%79[^\n]", &latitude, &longitude, info) == 3){
 		if (started)
 			printf(",\n");
 		else
-			started = ......... ;
-		prinf("{latitude: %f, longitude: %f, info: '%s'}", latitude, longitude, ......... );
+			started = 1;
+		prinf("{latitude: %f, longitude: %f, info: '%s'}", latitude, longitude, info);
 	}
 	puts("\n]");
 	return 0;
