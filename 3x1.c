@@ -29,7 +29,7 @@ int main()
 	usleep(1000000);
 	printf("%i\n", inumber);
 	while (inumber != 1) {
-		if (inumber % 2) {
+		if (inumber % 2) { // checking if the number is odd
 			inumber = (inumber * 3 + 1);
 			printf("%i\n", inumber);
 		}
