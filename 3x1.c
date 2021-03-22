@@ -40,6 +40,6 @@ int main()
 		count++;
 		usleep(100000);
 	}
-	printf("That's it! The next number is 4 which takes us to the loop. It's taken me %i steps to make it.\n", count);
+	printf("That's it! The next number is 4 which takes us to the loop.\nIt's taken me %i steps to make it.\n", count);
 	return 0;
 }
