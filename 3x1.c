@@ -14,6 +14,7 @@ int main()
 {
 	char number[5];
 	int inumber;
+	int count = 0;
 	puts("This is a simple game called '3x+1'.");
 	puts("The rules are simple -- you enter a number and I will do a series of simple arithmetic actions to it.");
 	puts("If the number is even I'll devide it by 2 and if it's odd I'll multiply it by 3 and add 1.");
@@ -22,10 +23,11 @@ int main()
 	puts("And then I'll show you how many steps it took to reach the loop.\n");
 	puts("So please enter your number: ");
 	scanf("%5s", number);
-	usleep(1000000);
-	puts("\nLet's rock!");
-	usleep(1000000);
 	inumber = atoi(number);
+	usleep(1000000);
+	puts("\nLet's rock!\n");
+	usleep(1000000);
+	printf("%i\n", inumber);
 	while (inumber != 1) {
 		if (inumber % 2) {
 			inumber = (inumber * 3 + 1);
@@ -35,8 +37,9 @@ int main()
 			inumber = (inumber / 2);
 			printf("%i\n", inumber);
 		}
+		count++;
 		usleep(100000);
 	}
-	puts("That's it! The next number is 4 which takes us to the loop.");
+	printf("That's it! The next number is 4 which takes us to the loop. It's taken me %i steps to make it.\n", count);
 	return 0;
 }
