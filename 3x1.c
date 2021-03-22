@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 int main()
 {
@@ -21,7 +22,9 @@ int main()
 	puts("And then I'll show you how many steps it took to reach the loop.\n");
 	puts("So please enter your number: ");
 	scanf("%5s", number);
-	puts("Let's rock!");
+	usleep(1000000);
+	puts("\nLet's rock!");
+	usleep(1000000);
 	inumber = atoi(number);
 	while (inumber != 1) {
 		if (inumber % 2) {
@@ -32,6 +35,7 @@ int main()
 			inumber = (inumber / 2);
 			printf("%i\n", inumber);
 		}
+		usleep(100000);
 	}
 	puts("That's it! The next number is 4 which takes us to the loop.");
 	return 0;
