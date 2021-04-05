@@ -26,7 +26,7 @@ int main(){
 	usleep(1000000);
 	puts("\nLet's rock!\n");
 	usleep(1000000);
-	printf("%i\n", inumber);
+	printf("%i\n\n", inumber);
 	while (inumber != 1) {
 		if (inumber % 2) { // checking if the number is odd
 			inumber = (inumber * 3 + 1);
