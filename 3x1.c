@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int main(){
+int main() {
 	char number[5];
 	int inumber;
 	int count = 0;
