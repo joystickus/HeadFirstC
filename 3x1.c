@@ -1,9 +1,9 @@
 /* This is a simple game called "3x+1".
- * The rules are simple -- you enter a number and I will do a series of simple arithmetic actions to it.
- * If the number is even I'll devide it by 2 and if it's odd I'll multiply it by 3 and add 1.
- * And I'll do the same with the resulting number. And with the next number. And so on and so forth.
- * I'll be doing it and showing you the result until I reach the cycle "4-2-1" which is the end of the game.
- * And then I'll show you how many steps it took to reach the cycle.
+ * The rules are simple -- you enter a number and I do a series of simple arithmetic actions to it.
+ * If the number is even I devide it by 2 and if it's odd I multiply it by 3 and add 1.
+ * And I do the same with the resulting number. And with the next number. And so on and so forth.
+ * I'm doing it and showing you the result until I reach the loop '4-2-1' which is the end of the game.
+ * And then I show you how many steps it took me to reach the loop.
  */
 
 #include <stdio.h>
