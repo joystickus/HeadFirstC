@@ -26,7 +26,7 @@ int main()
 	}
 	printf("The card value is: %i\n", val);
 	/* Check if the value is 3 to 6 */
-	if (val >= 3 && val <= 6) {
+	if ((val >= 3) && (val <= 6)) {
 		count++;
 		printf("Count has gone up and is now %i\n", count);
 	} else if (val == 10) {
