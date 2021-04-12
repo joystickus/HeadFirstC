@@ -7,7 +7,7 @@ For extra bonus points, say what you think the output of each compiled
 file will be when run, and whether you think the code is working as intended.
 */
 
-/* p23A -- */
+/* p23A -- It will not compile as the second 'if' is not well intended. */
 #include <stdio.h>
 int main()
 {
@@ -15,14 +15,14 @@ int main()
 	if (card > 1) /* There is no opening curly brace here. */
 		card = card - 1;
 		if (card < 7)
-			puts("Small card"); /* There is not closing curly brace here. */
+			puts("Small card"); /* There is no closing curly brace here. */
 	else { /* This curly brace is not needed here. */
 		puts("Ace!");
 	} /* This curly brace is not needed here. */
 	return 0;
 }
 
-/* p23B -- */
+/* p23B -- It will not compile as the closing curly brace is not well placed. */
 #include <stdio.h>
 int main()
 {
