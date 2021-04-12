@@ -13,23 +13,21 @@ int main()
 	scanf("%2s", card_name);
 	int val = 0;
 	int count = 0;
-	if (card_name[0] == 'K') {
-		val = 10;
-	} else if (card_name[0] == 'Q') {
-		val = 10;
-	} else if (card_name[0] =='J') {
-		val = 10;
-	} else if (card_name[0] =='A') {
-		val = 11;
-	} else {
-		val = atoi(card_name);
+	switch(card_name[0]) {
+		case ('K' || 'Q' || 'J'):
+			val = 10;
+			break;
+		case 'A':
+			val = 11;
+			break;
+		default:
+			val = atoi(card_name);
 	}
 	printf("The card value is: %i\n", val);
 	/* Check if the value is 3 to 6 */
 	if ((val >= 3) && (val <= 6)) {
 		count++;
 		printf("Count has gone up and is now %i\n", count);
-	/* Otherwise check if the card was 10, J, Q or K */
 	} else if (val == 10) {
 		count--;
 		printf("Count has gone down and is now %i\n", count);

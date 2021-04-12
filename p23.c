@@ -48,7 +48,8 @@ int main()
 /* p23C
  * It will compile.
  * It'll give "Small card".
- * It works as intended.
+ * It doesn't work as intended as 'else' is related to the wrong 'if'.
+ * It's the same as A.
  */
 #include <stdio.h>
 int main()
@@ -65,7 +66,7 @@ int main()
 }
 
 /* p23D
- * It will not compile.
+ * It will not compile as it's missing a closing curly brace.
  */
 #include <stdio.h>
 int main()
