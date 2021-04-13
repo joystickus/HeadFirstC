@@ -14,7 +14,9 @@ int main()
 	int val = 0;
 	int count = 0;
 	switch(card_name[0]) {
-		case ('K' || 'Q' || 'J'):
+		case 'K':
+		case 'Q':
+		case 'J':
 			val = 10;
 			break;
 		case 'A':
