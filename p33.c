@@ -11,7 +11,7 @@ int main()
 	char card_name[3];
 	int count = 0;
 	while (card_name[0] != 'X') {
-		puts("Enter the card name (X to exit): ");
+		puts("Enter the card name (X to exit):");
 		scanf("%2s", card_name);
 		int val = 0;
 		switch(card_name[0]) {
