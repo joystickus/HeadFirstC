@@ -11,6 +11,7 @@
 #include <unistd.h>
 
 int main() {
+	char number[5];
 	int inumber;
 	int step_count = 0;
 	puts("This is a simple game called '3x+1'.");
@@ -20,7 +21,8 @@ int main() {
 	puts("I'm doing it and showing you the result until I reach the loop '4-2-1' which is the end of the game.");
 	puts("And then I show you how many steps it took me to reach the loop.\n");
 	printf("So please enter your number: ");
-	scanf("%i", inumber);
+	scanf("%5s", number);
+	inumber = atoi(number);
 	usleep(1000000);
 	printf("\nLet's rock!\n");
 	usleep(1000000);
