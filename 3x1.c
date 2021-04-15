@@ -19,7 +19,7 @@ int main() {
 	puts("And I do the same with the resulting number. And with the next number. And so on and so forth.");
 	puts("I'm doing it and showing you the result until I reach the loop '4-2-1' which is the end of the game.");
 	puts("And then I show you how many steps it took me to reach the loop.\n");
-	printf("So please enter your number: ");
+	puts("So please enter your number: ");
 	scanf("%i", &inumber);
 	usleep(1000000);
 	printf("\nLet's rock!\n");
