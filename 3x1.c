@@ -3,7 +3,7 @@
  * If the number is even I devide it by 2 and if it's odd I multiply it by 3 and add 1.
  * And I do the same with the resulting number. And with the next number. And so on and so forth.
  * I'm doing it and showing you the result until I reach the loop '4-2-1' which is the end of the game.
- * And then I show you how many steps it took me to reach the loop.
+ * And then I show you how many steps it's taken me to reach the loop.
  */
 
 #include <stdio.h>
@@ -18,7 +18,7 @@ int main() {
 	puts("If the number is even I devide it by 2 and if it's odd I multiply it by 3 and add 1.");
 	puts("And I do the same with the resulting number. And with the next number. And so on and so forth.");
 	puts("I'm doing it and showing you the result until I reach the loop '4-2-1' which is the end of the game.");
-	puts("And then I show you how many steps it took me to reach the loop.\n");
+	puts("And then I show you how many steps it's taken me to reach the loop.\n");
 	puts("So please enter your number: ");
 	scanf("%i", &inumber);
 	usleep(1000000);
