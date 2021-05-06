@@ -30,7 +30,6 @@ int main()
 			break;
 		}
 	}
-	puts("The end!");
-	printf("My number is %i\n", number);
+	printf("The end! My number is %i\n", number);
 	return 0;
 }
