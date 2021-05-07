@@ -1,3 +1,11 @@
-1. #include <stdio.h> for puts, printf, scanf
-2. don't forget about return 0 at the end
-3. 
+* stdio.h for puts, printf, scanf
+
+* if (int >/</==) {action};
+
+* switch {case: action; break/continue; case: --//--; defaults: --//--;}
+
+* while (int >/</==) {action};
+
+* scanf + char / &int
+
+* 
