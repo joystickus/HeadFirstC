@@ -28,7 +28,7 @@ int main()
 	char string_var = 't';
 	char string_var[20] = "text";
 	int int_array[] = {1. 2. 3};
-	char array_of_array[][80] = {
+	char array_of_arrays[][80] = {
 		"text1",
 		"text2",
 		"text3"
